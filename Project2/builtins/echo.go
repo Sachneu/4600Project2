@@ -6,6 +6,10 @@ import (
 )
 
 func Echo(w io.Writer, args ...string) error {
-	_, err := fmt.Fprintln(w, args...)
+	var printArgs []interface{}
+	for _, arg := range args {
+		printArgs = append(printArgs, arg)
+	}
+	_, err := fmt.Fprintln(w, printArgs...)
 	return err
 }
