@@ -44,10 +44,24 @@ Usage
 Once the shell is running, you can use the supported built-in commands as follows:
 
 cd directory      # Change to the specified directory
+
+
 env               # Display environment variables
+
+
 exit              # Exit the shell
+
+
 echo message      # Display the message
+
+
 pwd               # Print the current working directory
+
+
 mkdir directory   # Create a new directory
+
+
 rmdir directory   # Remove a directory
+
+
 touch file        # Create a new file
