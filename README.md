@@ -13,10 +13,13 @@ To get started with ShweetShell, follow these steps:
    git clone https://github.com/Sachneu/4600Project2.git
    
 Navigate to the project directory:
-bash
+
 
 cd 4600Project2
+
+
 After this go to Project2 directory 
+
 
 cd Project2
 
