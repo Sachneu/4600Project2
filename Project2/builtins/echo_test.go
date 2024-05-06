@@ -3,7 +3,7 @@ package builtins_test
 import (
 	"bytes"
 	"errors"
-	"github.com/Sachneu/4600Project2/builtins"
+	"github.com/Sachneu/4600Project2/Project2/builtins"
 	"testing"
 )
 
