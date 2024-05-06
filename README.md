@@ -1,4 +1,6 @@
-# ShweetShell
+## ShweetShell
+# Sachet Neupane
+# sn0552
 
 ShweetShell is a simple shell written in Go that supports various built-in commands.
 
@@ -14,6 +16,8 @@ Navigate to the project directory:
 bash
 
 cd 4600Project2
+After this go to Project2 directory 
+
 cd Project2
 
 ## Run the code 
