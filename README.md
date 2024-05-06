@@ -1,18 +1,46 @@
-# Project Files CSCE 4600
-[![golangci-lint](https://github.com/jh125486/CSCE4600/actions/workflows/golangci-lint.yml/badge.svg?branch=main)](https://github.com/jh125486/CSCE4600/actions/workflows/golangci-lint.yml)
-![Coverage](https://img.shields.io/badge/Coverage-65.0%25-yellow)
+# ShweetShell
 
-## Operating Systems
+ShweetShell is a simple shell written in Go that supports various built-in commands.
 
-Concepts in operating system analysis and design. General topics of process, resource and file management are presented and analyzed in the context of different system architectures and performance constraints.
+## Getting Started
 
-## [Project 1: Process Scheduler](https://github.com/jh125486/CSCE4600/tree/main/Project1)
+To get started with ShweetShell, follow these steps:
+
+1. Clone the repository:
+
+   git clone https://github.com/Sachneu/4600Project2.git
+   
+Navigate to the project directory:
+bash
+
+cd 4600Project2
+cd Project2
+
+## Run the code 
+go run main.go
 
 
-You can't take an operating systems class without programming a process scheduler.  It's against the Geneva code or something.
-Design a program that implements several different CPU scheduling algorithms.
+## Features
+ShweetShell supports the following built-in commands:
 
+cd: Change directory
+env: Display environment variables
+exit: Exit the shell
 
-## [Project 2: Shell Builtins](https://github.com/jh125486/CSCE4600/tree/main/Project2)
+echo: Display arguments 
+pwd: Print working directory
+mkdir: Create directories
+rmdir: Remove directories
+touch: Create empty files
 
-A twist on a classic "build your own shell". The *very* basic shell is already written, but you will choose five (5) shell builtins (or shell-adjacent) commands to rewrite into Go, and integrate into the Go shell.
+Usage
+Once the shell is running, you can use the supported built-in commands as follows:
+
+cd directory      # Change to the specified directory
+env               # Display environment variables
+exit              # Exit the shell
+echo message      # Display the message
+pwd               # Print the current working directory
+mkdir directory   # Create a new directory
+rmdir directory   # Remove a directory
+touch file        # Create a new file
